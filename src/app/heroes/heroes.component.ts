@@ -12,10 +12,6 @@ import{
   styleUrl: './heroes.component.css'
 })
 export class HeroesComponent {
-  // hero: Hero = {
-  //   id: 1,
-  //   name: 'Windstorm'
-  // };
   heroes = HEROES;
   // ? - the member is optional
   selectedHero?: Hero;
